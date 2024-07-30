@@ -1,0 +1,91 @@
+/* cores*/
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: hsl(0, 0%, 8%);
+  font-family: "Inter", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 360px;
+  width: 100%;
+  background-color: hsl(0, 0%, 12%);
+  padding: 30px;
+  border-radius: 20px;
+  color: hsl(0, 0%, 100%);
+  margin-top: 3em;
+}
+
+.title {
+  text-align: center;
+}
+.title__name {
+  font-weight: 600;
+}
+.title__img {
+  border-radius: 50%;
+  max-width: 128px;
+}
+.title__subtitle {
+  color: hsl(75, 94%, 57%);
+  margin-top: 8px;
+  margin-bottom: 24px;
+  font-size: 16px;
+  font-weight: normal;
+}
+.title__describe {
+  padding-bottom: 16px;
+}
+
+.social {
+  list-style: none;
+  text-align: center;
+}
+.social__button {
+  width: 24em;
+  max-width: 100%;
+  padding: 1em;
+  border-radius: 0.5em;
+  margin-top: 1em;
+  background-color: hsl(0, 0%, 20%);
+  cursor: pointer;
+  transition: ease 2000;
+  color: hsl(0, 0%, 100%);
+  font-weight: bold;
+  transition: width 0.5s ease, background-color 0.5s ease;
+  outline: none;
+  border: none;
+}
+.social__button:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 8%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+}
+
+.attribution a {
+  color: hsl(75, 94%, 57%);
+}
+
+@media (max-width: 375px) {
+  .container {
+    max-width: 70%;
+  }
+  .social__button {
+    max-width: 70%;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
